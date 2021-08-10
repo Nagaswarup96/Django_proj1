@@ -1,0 +1,49 @@
+    :root{
+    --bgcol: rgb(187, 85, 85);
+    --Spacing: 10px;
+    --blur : 5px;
+}
+body{
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+.box{
+    margin-top: 5%;
+}
+.marg{
+    display: inline-block;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.col{
+    display: inline-block;
+    margin: 20px;
+    font-size:  1.5rem;
+}
+
+.blu{
+    display: inline-block;
+    margin: 20px;
+    font-size:  1.5rem;
+}
+
+.block{
+    margin-top: 5%;
+    
+}
+
+.imgs{
+    /* position:relative; */
+    margin-top: 5% 20%;
+    
+    bottom: 100px;
+    width: 800px;
+    height: 400px;
+    background-color: var(--bgcol) ;
+    padding: var(--Spacing);
+    filter: blur(var(--blur));
+    /* width: 100%; */
+   
+}

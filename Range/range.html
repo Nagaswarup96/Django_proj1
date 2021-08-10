@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="range.css">
+    <title>Scroll bar</title>
+</head>
+<body>
+
+    <h1>Scroll Bar</h1>
+
+    <div class="box">
+
+        <div class="marg">
+            <label>Scroll :</label>
+            <input type="range" min="10" max="200" name="Spacing" value="10" data-sizing="px">
+        </div>
+
+        <div class="col">
+            <label>Color :</label>
+            <input type="color" name="bgcol" value=" rgb(187, 85, 85)">
+        </div>
+
+        <div class="blu">
+            <label>Blur Scroll :</label>
+            <input type="range" min="0" max="25" name="blur" value="5" data-sizing="px">
+        </div>
+
+    </div>
+
+    <div class="block">
+        <img class="imgs" src="images/audience.jpg" alt="audience">
+    </div>
+    <script src="range.js"></script>
+</body>
+
+</html>
